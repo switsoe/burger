@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
 });
 
 router.get("/test", function(req, res) {
-  console.log("working!");
+  res.json("Working!");
 });
 
 router.post("/", function(req, res) {
