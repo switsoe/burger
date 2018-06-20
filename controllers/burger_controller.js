@@ -15,6 +15,10 @@ router.get("/", function(req, res) {
   });
 });
 
+router.get("/test", function(req, res) {
+  console.log("working!");
+});
+
 router.post("/", function(req, res) {
   burger.create([
     "burger_name", "devoured"
